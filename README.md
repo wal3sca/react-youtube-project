@@ -1,3 +1,6 @@
+Trello Board Link: (https://trello.com/b/yM2ud1pI/react-youtube-project)
+Group Member Names: Walesca A, Taylor W, Eva R, Vanessa C
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
