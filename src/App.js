@@ -5,18 +5,17 @@ import React from "react";
 import Home from "./components/Home";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
-import SearchBar from "./components/SearchBar";
 import Comments from "./components/Comments";
 
 
 export default function App() {
   return (
-    <div className="App">
-      <SearchBar/>
-      <Videos/>
+    <div>
       <Home />
       <About />
       <NavBar />
+      <SearchBar />
+      <Videos/>
       <Comments />
     </div>
   );
