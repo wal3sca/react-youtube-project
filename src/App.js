@@ -1,22 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import SearchBar from './Home/SearchBar';
+import Videos from './Videos/VideosRender'
 import React from "react";
 import Home from "./components/Home";
 import About from "./components/About";
 import NavBar from "./components/NavBar";
-import SearchBar from "./components/SearchBar";
 import Comments from "./components/Comments";
 
 
 export default function App() {
   return (
-    <main>
+    <div>
       <Home />
       <About />
       <NavBar />
       <SearchBar />
+      <Videos/>
       <Comments />
-    </main>
+    </div>
   );
 }
 
