@@ -1,26 +1,26 @@
 import './App.css';
 
-import SearchBar from './Home/SearchBar';
-import Videos from './Videos/VideosRender'
+// import SearchBar from './Home/SearchBar';
+// import Videos from './Videos/VideosRender'
 import React from "react";
-import Home from "./components/Home";
-import About from "./components/About";
+// import Home from "./components/Home";
+// import About from "./components/About";
 import NavBar from "./components/NavBar";
-import Comments from "./components/Comments";
+// import Comments from "./components/Comments";
 
 
 export default function App() {
   return (
 
     <div>
-      <Home />
-      <About />
+      {/* <Home />
+      <About /> */}
       <NavBar />
-      <SearchBar />
+      {/* <SearchBar />
       <Videos/>
-      <Comments />
+      <Comments /> */}
     </div>
   );
 }
 
-export default App;
+
