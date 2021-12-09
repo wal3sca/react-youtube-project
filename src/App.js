@@ -1,4 +1,5 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
 
 // import SearchBar from './Home/SearchBar';
 // import Videos from './Videos/VideosRender'
@@ -15,7 +16,9 @@ export default function App() {
     <div>
       {/* <Home />
       <About /> */}
-      <NavBar />
+      <Routes>
+      <Route path='/' element={<NavBar />} />
+      </Routes>
       {/* <SearchBar />
       <Videos/>
       <Comments /> */}
