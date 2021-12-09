@@ -1,21 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 import React from "react";
-import Home from "./components/Home";
-import About from "./components/About";
+// import Home from "./components/Home";
+// import About from "./components/About";
 import NavBar from "./components/NavBar";
-import SearchBar from "./components/SearchBar";
-import Comments from "./components/Comments";
+// import SearchBar from "./components/SearchBar";
+// import Comments from "./components/Comments";
 
 
 export default function App() {
   return (
     <main>
-      <Home />
-      <About />
-      <NavBar />
-      <SearchBar />
-      <Comments />
+
+      {/* <Home /> */}
+      {/* <About /> */}
+      <Routes>
+      <Route path='/' element={<NavBar />} />
+      </Routes>
+      {/* <SearchBar /> */}
+      {/* <Comments /> */}
     </main>
   );
 }
@@ -41,4 +44,4 @@ export default function App() {
 //   );
 // }
 
-export default App;
+// export default App;
