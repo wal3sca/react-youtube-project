@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 
-const NavBar = () => {
+const NavBar = () => { 
     return (
         <header className='nav'>
             <span id='youtube'>Youtube</span>
