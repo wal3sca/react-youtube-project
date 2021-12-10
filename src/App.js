@@ -1,3 +1,6 @@
+import logo from "./logo.svg";
+import "./App.css";
+import Comments from "./Components/Comments";
 import './App.css';
 
 import { Routes, Route } from 'react-router-dom';
@@ -17,6 +20,11 @@ import NavBar from "./components/NavBar";
 
 export default function App() {
   return (
+    <div className="App">
+      <Comments />
+      <Form />
+    </div>
+  );
 
     <main>
       {/* <Home /> */}
