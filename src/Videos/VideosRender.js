@@ -22,6 +22,7 @@ let handleSubmit = async (termFromSearchBar) => {
     console.log("this is resp", response);
     navigate(`/videos-list`);
 };
+
 let handleVideoSelect = (video) => {
     setSelectedVideo(video);
     navigate(`/watch-video`);

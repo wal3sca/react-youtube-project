@@ -6,16 +6,25 @@ import React from "react";
 // import About from "./components/About";
 // import NavBar from "./components/NavBar";
 // import Comments from "./components/Comments";
+import { Routes, Route } from "react-router-dom";
 
 
 export default function App () {
   return (
-    <div>
-      {/* <Home />
-      <About /> */}
-      {/* <NavBar /> */}
-      <VideosRender/>
+
+    <main>
+      {/* <Home /> */}
+      {/* <About /> */}
+      <Routes>
+      <Route path='/' element={<NavBar />} />
+      </Routes>
+      {/* <SearchBar /> */}
       {/* <Comments /> */}
-    </div>
-    );
-  }
+    </main>
+  )
+}
+
+
+
+// export default App;
+
