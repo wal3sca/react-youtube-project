@@ -3,7 +3,6 @@ import React from "react";
 const VideoInfo = ({ video }) => {
 if (!video) {
     return <div>
-    <h1>Enter Artist Name to load....</h1>
     <br></br>
     </div>;
 }
