@@ -2,6 +2,7 @@ import './App.css';
 
 import { Routes, Route } from 'react-router-dom';
 
+
 // import SearchBar from './Home/SearchBar';
 // import Videos from './Videos/VideosRender'
 
@@ -18,16 +19,17 @@ import NavBar from "./components/NavBar";
 export default function App() {
   return (
 
-    <div>
+    <main>
       {/* <Home />
       <About /> */}
       <Routes>
       <Route path='/' element={<NavBar />} />
       </Routes>
-      {/* <SearchBar />
-      <Videos/>
-      <Comments /> */}
-    </div>
+
+      {/* <SearchBar /> */}
+      {/* <Comments /> */}
+    </main>
+
 
   );
 }
