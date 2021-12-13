@@ -3,6 +3,7 @@ import SearchBar from '../Home/SearchBar';
 import YouTube from "../Api-Data/YoutubeData";
 import VideoList from "../Videos/VideoList";
 import VideoInfo from "../Videos/VideoInfo";
+import About from "../components/About";
 
 import { Routes, Route, useNavigate } from "react-router-dom";
 
@@ -34,7 +35,8 @@ return (
     <div className="grid">
         <div className="row">
         <Routes>
-            <Route path="/" element={<h1>Welcome to our Home Page...</h1>}/>
+            <Route path="/Home" element={<h1></h1>}/>
+            <Route path="/about" element={<About />}/>
             <Route
             path="/videos-list"
             element={
