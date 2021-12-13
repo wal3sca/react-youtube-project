@@ -15,9 +15,8 @@ export default function App () {
     <main>
       {/* <Home /> */}
       {/* <About /> */}
-      <Routes>
-      <Route path='/' element={<NavBar />} />
-      </Routes>
+      <NavBar />
+      <VideosRender />
       {/* <SearchBar /> */}
       {/* <Comments /> */}
     </main>
