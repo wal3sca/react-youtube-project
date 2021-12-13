@@ -31,7 +31,12 @@ let handleVideoSelect = (video) => {
 
 return (
     <div className="container">
+        <br></br>
+        <br></br>
+        <br></br>
     <SearchBar handleFormSubmit={handleSubmit} />
+    <br></br>
+    <br></br>
     <div className="grid">
         <div className="row">
         <Routes>
