@@ -20,7 +20,6 @@ class SearchBar extends React.Component {
         
         return (
             <>
-            <h2>YouTube App</h2>
             <div className='search-bar'>
                 <form onSubmit={this.handleSubmit} className='form'>
                     <div className='field'>

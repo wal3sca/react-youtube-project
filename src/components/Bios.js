@@ -9,7 +9,7 @@ const Bios = () => {
       <h3>
         <a href="https://github.com/wal3sca">Walesca Ambroise</a>
       </h3>
-      <img src={WalescaPic} alt="wal" width="200" height="200" />
+      <img className="all-images" src={WalescaPic} alt="wal" width="200" height="200" />
       <p1>
         Walesca Ambroise is a full stack software engineer who has taken the
         role of project manager for the YouTube React Project. Ambroise has
@@ -20,7 +20,7 @@ const Bios = () => {
       <h3>
         <a href="https://github.com/TaylorWill94">Taylor Williams</a>
       </h3>
-      <img src={TaylorPic} alt="tay" width="200" height="200" />
+      <img className="all-images" src={TaylorPic} alt="tay" width="200" height="200" />
       <p1>
         Taylor Williams is a software engineer. Her role in this project was to
         create the Navigation component. This allows the user to navigate
@@ -29,7 +29,7 @@ const Bios = () => {
       <h3>
         <a href="https://github.com/EvaRodCor">Eva Rodriguez</a>
       </h3>
-      <img src={EvaPic} alt="eva" width="200" height="200" />
+      <img className="all-images" src={EvaPic} alt="eva" width="200" height="200" />
       <p1>
         Eva Rodriguez is a software engineer whose role for this project was to
         manage retrieving data from API.
@@ -37,7 +37,7 @@ const Bios = () => {
       <h3>
         <a href="https://github.com/vanessaconti">Vanessa Conti</a>
       </h3>
-      <img src={VanessaPic} alt="van" width="200" height="200" />
+      <img className="all-images" src={VanessaPic} alt="van" width="200" height="200" />
       <p1>
         Vanessa Conti full stack software engineer who took on the role of the
         search bar in collaboration with Eva Rodriguez. The search bar allows
