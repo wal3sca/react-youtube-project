@@ -6,7 +6,7 @@ span {
   font-family: "Poppins", sans-serif;
   position: absolute;
   left: 50%;
-  top: 99%;
+  top: 120%;
   transform: translate(-50%, -50%);
   display: block;
   color: #cf1b1b;
@@ -99,9 +99,4 @@ h1 {
   font-size: 60px;
   line-height: 0.75;
   margin: 10px 0;
-}
-
-/* team bio */
-
-.Bios {
 }

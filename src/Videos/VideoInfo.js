@@ -1,27 +1,26 @@
-import React, { Component } from "react";
-import '../Videos/style/video.css';
-
+import "../Videos/style/video.css";
 
 const VideoInfo = ({ video }) => {
-if (!video) {
-    return <div>
-    <br></br>
-    </div>;
-}
+  if (!video) {
+    return (
+      <div>
+        <br></br>
+      </div>
+    );
+  }
 
-const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
-return (
-    
+  const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
+  return (
     <div>
-    <div className="embed">
+      <div className="embed">
         <iframe src={videoSrc} allowFullScreen title="Video Player" />
-    </div>
-    <div className="segment">
+      </div>
+      <div className="segment">
         <h4 className="header">{video.snippet.title}</h4>
         <p>{video.snippet.description}</p>
+      </div>
     </div>
-    </div>
-    )
+  );
 };
 
 export default VideoInfo;

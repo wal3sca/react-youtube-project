@@ -2,6 +2,7 @@ import VanessaPic from "../assets/van_con.jpg";
 import WalescaPic from "../assets/wal_amb.png";
 import EvaPic from "../assets/eva_rod.png";
 import TaylorPic from "../assets/tay_will.png";
+import "../Videos/style/Bios.css";
 
 const Bios = () => {
   return (

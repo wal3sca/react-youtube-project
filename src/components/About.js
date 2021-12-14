@@ -1,4 +1,4 @@
-import "./About.css";
+import "../Videos/style/About.css";
 import React from "react";
 import Bios from "./Bios";
 import Team from "./Team";
