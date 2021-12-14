@@ -1,13 +1,13 @@
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
-    return (
-        <header className='nav'>
-            <Link to='/Home'>Home</Link>
-            <Link to='/about'>About</Link>
+  return (
+    <header className="nav">
+      <Link to="/Home">Home</Link>
 
-        </header>
-    )
-}
+      <Link to="/About">About</Link>
+    </header>
+  );
+};
 
 export default NavBar;

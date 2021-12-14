@@ -60,7 +60,7 @@ span:hover:after {
   left: -10px;
 }
 
-img.all-images {
+img {
   border-radius: 50%;
 }
 
@@ -99,9 +99,4 @@ h1 {
   font-size: 60px;
   line-height: 0.75;
   margin: 10px 0;
-}
-
-/* team bio */
-
-.Bios {
 }
