@@ -1,0 +1,26 @@
+/* team bio */
+
+@keyframes {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
+
+p1 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  /* animation-name: example; */
+  animation-duration: 4s;
+}
+
+h3 {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  /* animation-name: example; */
+  animation-duration: 4s;
+}
