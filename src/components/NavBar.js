@@ -13,8 +13,6 @@ const NavBar = () => {
       <strong id="about">
         <Link to="/about">About</Link>
       </strong>
-
-      <Link to="/About">About</Link>
     </header>
   );
 };
