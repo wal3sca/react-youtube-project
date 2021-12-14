@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Videos/style/SearchBar.css';
 
 class SearchBar extends React.Component {
     handleChange = (event) => {
@@ -24,7 +25,7 @@ class SearchBar extends React.Component {
                 <form onSubmit={this.handleSubmit} className='form'>
                     <div className='field'>
                     <label htmlFor="video-search"> 
-                    <input onChange={this.handleChange} name='video-search' type="text" placeholder="Search.."/>
+                    <input className="input"  onChange={this.handleChange} name='video-search' type="text" placeholder="Search.."/>
                     </label>
                     <button type="submit">Search</button>
                     </div>

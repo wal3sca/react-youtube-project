@@ -1,10 +1,30 @@
-.selected-video {
-    display: flex !important;
-    align-items: center !important;
-    cursor: pointer;
+div.selected-video {
+    text-align: center;
 }
 
-.selected-video.item img {
-    max-width: 200px;
-    max-height: 250px ;
+img.image {
+    width: 30%;
+    height: 20vh;
+    border-radius: 9%;
+}
+
+div.header {
+    font-size: 1.6rem;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+
+.eleven-wide-column {
+    text-align: center;
+}
+
+iframe {
+    width: 60%;
+    height: 40vh;
+    cursor: pointer;
+    border-radius: 5%;
+}
+
+div.segment {
+    font-size: 1.6rem;
 }

@@ -1,4 +1,6 @@
-import React from "react";
+import React, { Component } from "react";
+import '../Videos/style/video.css';
+
 
 const VideoInfo = ({ video }) => {
 if (!video) {
@@ -19,7 +21,7 @@ return (
         <p>{video.snippet.description}</p>
     </div>
     </div>
-    );
+    )
 };
 
 export default VideoInfo;

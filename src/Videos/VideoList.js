@@ -1,5 +1,7 @@
 import React from 'react';
 import SelectedVideo from '../Videos/SelectedVideo';
+import '../Videos/style/video.css';
+
 // import SelectedVideoNav from './SelectedVideoNav';
 // import { Route, Routes } from 'react-router-dom';
 

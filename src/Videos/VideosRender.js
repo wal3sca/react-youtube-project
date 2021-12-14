@@ -4,6 +4,7 @@ import YouTube from "../Api-Data/YoutubeData";
 import VideoList from "../Videos/VideoList";
 import VideoInfo from "../Videos/VideoInfo";
 import About from "../components/About";
+import '../Videos/style/video.css';
 
 import { Routes, Route, useNavigate } from "react-router-dom";
 
@@ -53,7 +54,7 @@ return (
             <Route
             path="/watch-video"
             element={
-                <div className="eleven wide column">
+                <div className="eleven-wide-column">
                 <VideoInfo video={selectedVideo} />
                 </div>}/>
         </Routes>

@@ -1,5 +1,5 @@
 import React from "react";
-import "../style/Form.css";
+import '../Videos/style/Form.css';
 
 const Form = ({ handleSubmit, handleChange }) => {
   return (
