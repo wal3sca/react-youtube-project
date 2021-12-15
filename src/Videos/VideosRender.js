@@ -54,7 +54,7 @@ function VideosRender() {
 
           <Routes>
 
-            <Route path="/Home" element={<h1></h1>} />
+            <Route path="/Home" element={<h1>...</h1>} />
             <Route path="/about" element={<About />} />
             <Route
               path="/videos-list"
