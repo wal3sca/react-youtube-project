@@ -2,13 +2,13 @@ import React from 'react';
 import '../Videos/style/SearchBar.css';
 
 class SearchBar extends React.Component {
+
+    
     handleChange = (event) => {
         this.setState({
             input: event.target.value
         });
     };
-
-
 
     handleSubmit = event => {
         event.preventDefault();

@@ -1,6 +1,7 @@
 import "../Videos/style/video.css";
 
 const VideoInfo = ({ video }) => {
+
   if (!video) {
     return (
       <div>
@@ -9,6 +10,8 @@ const VideoInfo = ({ video }) => {
     );
   }
 
+
+  
   const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`;
   return (
     <div>
@@ -22,5 +25,7 @@ const VideoInfo = ({ video }) => {
     </div>
   );
 };
+
+
 
 export default VideoInfo;

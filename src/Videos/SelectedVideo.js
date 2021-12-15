@@ -1,6 +1,8 @@
 import React from 'react';
 import '../Videos/style/video.css';
 
+
+
 const SelectedVideo = ({video , handleVideoSelect}) => {
     return (
         <div onClick={ () => handleVideoSelect(video)} className=' selected-video'>
@@ -11,4 +13,7 @@ const SelectedVideo = ({video , handleVideoSelect}) => {
         </div>
     )
 };
+
+
+
 export default SelectedVideo;
